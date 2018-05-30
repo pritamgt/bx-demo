@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/js/tasks/tasks.js" => "15274019273975",)); ?>

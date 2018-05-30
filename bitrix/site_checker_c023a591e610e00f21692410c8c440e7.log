@@ -1,0 +1,133 @@
+2018-May-28 07:08:44 Required PHP Modules (check_php_modules): Ok
+All required modules are installed.
+2018-May-28 07:08:44 PHP Required Parameters (check_php_settings): Ok
+Settings are correct
+2018-May-28 07:08:44 Web server modules (check_security): Ok
+No conflicts.
+2018-May-28 07:08:45 Server Variables (check_server_vars): Ok
+Correct
+2018-May-28 07:08:45 Session retention (check_session): Ok
+50% done
+2018-May-28 07:08:45 Session retention (check_session): Ok
+Success
+2018-May-28 07:08:45 UTF configuration parameters (mbstring and BX_UTF) (check_mbstring): Ok
+Correct. The website runs in UTF encoding
+2018-May-28 07:08:45 Service scripts in the site root (check_install_scripts): Ok
+None
+2018-May-28 07:08:46 Using sockets (check_socket): Ok
+Connection to 5.9.129.250:80	Success
+
+Success
+2018-May-28 07:08:46 Use cron to run agents (check_bx_crontab): Ok
+Success
+2018-May-28 07:08:46 Real time business chat (check_pull_stream): Ok
+Server version: 3 (Bitrix Push server)
+Connection to 5.9.129.250:80	Success
+Connection to 127.0.0.1:8895	Success
+Connection to 127.0.0.1:8895	Success
+
+Success
+2018-May-28 07:08:46 Live comments (check_pull_comments): Ok
+Success
+2018-May-28 07:08:46 Video calls (check_turn): Ok
+Connection to turn.calls.bitrix24.com:40001	Success
+
+Available
+2018-May-28 07:08:48 Bitrix24 mobile app (check_access_mobile): Ok
+Connection to checker.internal.bitrix24.com:80	Success
+== Request ==
+GET /check/?license_hash=ee054a156a095bf850f0e0539a11dc45&host=5.9.129.250&port=80&https=N HTTP/1.1
+host: checker.internal.bitrix24.com
+
+
+== Response ==
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Date: Mon, 28 May 2018 11:08:47 GMT
+Server: nginx/1.8.1
+X-Powered-By: PHP/5.3.3
+Content-Length: 46
+Connection: keep-alive
+
+== Body ==
+Check: OK
+Status: 200
+Connection: keep-alive
+
+==========
+Connection to checker.internal.bitrix24.com:80	Success
+== Request ==
+GET /check/?license_hash=ee054a156a095bf850f0e0539a11dc45&host=5.9.129.250&port=8893&https=N HTTP/1.1
+host: checker.internal.bitrix24.com
+
+
+== Response ==
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Date: Mon, 28 May 2018 11:08:48 GMT
+Server: nginx/1.8.1
+X-Powered-By: PHP/5.3.3
+Content-Length: 41
+Connection: keep-alive
+
+== Body ==
+Check: OK
+Status: 200
+Connection: close
+
+==========
+
+Success
+2018-May-28 07:08:49 Notifications to mobile devices (push notifications) (check_push_bitrix): Ok
+Connection to ssl://cloud-messaging.bitrix24.com:443	Success
+
+Success
+2018-May-28 07:08:49 Editing documents in Google Docs and Microsoft Office Online (check_access_docs): Ok
+Success
+2018-May-28 07:08:49 Bitrix24.Drive. Fast file operations (check_fast_download): Ok
+Connection to 5.9.129.250:80	Success
+
+Success
+2018-May-28 07:08:49 Search document contents (check_search): Ok
+Success
+2018-May-28 07:08:49 E-mail notifications (check_mail): Fail
+Error! The test has failed to complete.
+2018-May-28 07:08:50 Access to Bitrix cloud services (check_ca_file): Ok
+Success
+2018-May-28 07:08:50 Internal corporate mail integration (check_connect_mail): Warning
+Warning. External e-mail account integration is OK, but none of the users configured integration settings.
+2018-May-28 07:08:50 Social service integration (check_socnet): Warning
+Warning. No social networking service configured in the social networking module settings.
+2018-May-28 07:08:50 REST API Usage (check_rest): Ok
+Success
+2018-May-28 07:08:51 Relay e-mail messages to Activity Stream (check_mail_push): Warning
+Warning. Cannot get MX record for domain 5.9.129.250
+2018-May-28 07:08:51 External access to Extranet (check_extranet): Ok
+Success
+2018-May-28 07:08:51 Editing documents in Microsoft Office (check_webdav): Ok
+Connection to 5.9.129.250:80	Success
+Connection to 5.9.129.250:80	Success
+Connection to 5.9.129.250:80	Success
+Connection to 5.9.129.250:80	Success
+Connection to 5.9.129.250:80	Success
+
+Success
+2018-May-28 07:08:51 Applications (MS Office, Outlook, Exchange) via secure connection (check_socket_ssl): Warning
+Connection to ssl://5.9.129.250:443 (certificate check enabled)	Fail
+Connection to ssl://5.9.129.250:443	Fail
+
+Warning. Cannot connect to https://5.9.129.250
+2018-May-28 07:08:51 Active Directory integration (check_ad): Warning
+Warning. AD server integration is not configured.
+2018-May-28 07:08:51 Windows NTLM authentication (check_ntlm): Warning
+Warning. NTLM authentication is enabled in the LDAP module settings.
+2018-May-28 07:08:52 Server performance test (check_perf): Ok
+Connection to 5.9.129.250:80	Success
+Connection to 5.9.129.250:80	Success
+Connection to 5.9.129.250:80	Success
+
+High (103.81 pages per second)
+2018-May-28 07:08:52 Page compression and acceleration (check_compression): Ok
+Connection to 5.9.129.250:80	Success
+
+Using the web server module for compression

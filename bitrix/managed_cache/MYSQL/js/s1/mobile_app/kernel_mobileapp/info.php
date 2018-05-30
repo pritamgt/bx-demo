@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/js/mobileapp/fastclick.js" => "15274018178369",)); ?>

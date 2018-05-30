@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/components/bitrix/main.post.list/templates/mobile_app/script.js" => "152740165216272","/bitrix/components/bitrix/main.post.list/templates/.default/script.js" => "152740165236401","/bitrix/components/bitrix/main.post.form/templates/mobile_app/script.js" => "152740165216697",)); ?>

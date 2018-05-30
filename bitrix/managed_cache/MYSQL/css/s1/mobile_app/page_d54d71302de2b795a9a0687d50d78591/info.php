@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/js/main/phonenumber/css/phonenumber.css" => "152740165235914","/bitrix/components/bitrix/mobile.im.dialog/templates/.default/style.css" => "152740181673",)); ?>

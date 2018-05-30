@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/components/bitrix/mobile.tasks.snmrouter/templates/.default/style.css" => "152740181621638",)); ?>

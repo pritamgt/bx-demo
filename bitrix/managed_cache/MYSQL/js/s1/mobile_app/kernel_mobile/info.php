@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/js/mobile/mobile_ui.js" => "15274018166349","/bitrix/js/mobile/mobile_tools.js" => "15274018166195",)); ?>

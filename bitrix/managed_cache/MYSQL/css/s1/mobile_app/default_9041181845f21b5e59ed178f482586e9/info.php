@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/components/bitrix/rating.vote/templates/like/style.css" => "15274016529829",)); ?>

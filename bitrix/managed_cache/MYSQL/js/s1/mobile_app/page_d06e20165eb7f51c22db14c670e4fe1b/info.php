@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/templates/mobile_app/components/bitrix/socialnetwork.user_profile/mobile/script.js" => "15274018165252",)); ?>

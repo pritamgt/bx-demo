@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/templates/mobile_app/components/bitrix/socialnetwork.user_profile/mobile/style.css" => "15274018162973","/bitrix/templates/mobile_app/components/bitrix/system.field.view/iblock_section/style.css" => "152740181699",)); ?>
